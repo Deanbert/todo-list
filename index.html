@@ -13,21 +13,20 @@
 <body>
 <!-- Header -->
     <header>
-        <h1>You Can Do To with To Do</h1>
+        <h1>You Can Do Too with To Do</h1>
         <p>A simple productivity tool to help you manage your day, week or life.</p>
+    
+    <!-- Text input section -->
+        <div> 
+            <input class="todo-input" type="text">
+            <button class="todo-button" type="submit">Add to List</button>
+            <button class="clear-text-button">Clear current entry</button>
+        </div>
     </header>
 <!-- End of header -->
 
-<!-- Main text input section -->
-    <div> 
-        <input class="todo-input" type="text">
-        <button class="todo-button" type="submit">Add to List</button>
-        <button class="clear-text-button">Clear current entry</button>
-    </div>
-<!-- End of main text input section -->
-
-<!-- List section for user submitted strings -->
-    <div class="todo-container">
+<!-- List section for user submitted to do's -->
+    <div id="todo-container">
         <ul class="todo-list">
         </ul>
     </div>

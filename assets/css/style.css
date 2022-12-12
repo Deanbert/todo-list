@@ -1,0 +1,29 @@
+/* Font Styles provided by Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300&display=swap');
+
+/* Removing default CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+/* Header styling */
+
+header {
+    background-image: linear-gradient(100deg, #f6f4d2, #d4e09b);
+}
+
+/* List container styling */
+
+#todo-container {
+    background-image: url('../images/hero_writing_on_notepad.jpg');
+}
