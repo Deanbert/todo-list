@@ -14,16 +14,65 @@
 
 body {
     font-family: 'poppins', sans-serif;
+    background-image: url('../images/hero_writing_on_notepad.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 /* Header styling */
 
 header {
     background-image: linear-gradient(100deg, #f6f4d2, #d4e09b);
+    font-size: 1.5rem;
 }
 
-/* List container styling */
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+}
 
-#todo-container {
-    background-image: url('../images/hero_writing_on_notepad.jpg');
+header p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+}
+
+#text-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 8vh;
+    font-size: 2rem;
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 3vh;
+    min-width: 25vw;
+    border-radius: 5px;
+    margin: 0;
+    font-size: large;
+}
+
+.todo-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 3vh;
+    min-width: 2.5vw;
+    font-weight: 800;
+    border-radius: 5px;
+    margin: 0;
+    transition: all 0.5s ease;
+}
+
+.todo-button:hover {
+    background: #f6f4d2;
+    color: #3a3a3a;
 }
