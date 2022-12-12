@@ -6,21 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Organise your day, your week, your life with this simple to use to do list">
     <meta name="keywords" content="to do, organise, organiser, manage, manage list, manage task, task manager, list, itemise, life organiser">
+    
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Your To Do List</title>
 </head>
 <body>
 <!-- Header -->
     <header>
-        <h1>Your To Do List</h1>
+        <h1>You Can Do To with To Do</h1>
+        <p>A simple productivity tool to help you manage your day, week or life.</p>
     </header>
-<!-- Main text input section -->
+<!-- Main Text Input Section -->
     <div> 
-        <input>
-        <button></button>
+        <input class="todo-input" type="text">
+        <button class="todo-button" type="submit">Add to List</button>
+        <button class="clear-text-button">Clear current entry</button>
     </div>
 <!-- List section for user submitted strings -->
-    <div>
+    <div class="todo-container">
+        <ul class="todo-list">
+        </ul>
     </div>
 <!-- Footer. Icons taken from Font Awesome -->
     <footer>
