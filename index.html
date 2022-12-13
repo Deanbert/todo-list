@@ -1,54 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Organise your day, your week, your life with this simple to use to do list">
-    <meta name="keywords" content="to do, organise, organiser, manage, manage list, manage task, task manager, list, itemise, life organiser">
-    
+    <meta name="keywords"
+        content="to do, organise, organiser, manage, manage list, manage task, task manager, list, itemise, life organiser">
+
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Your To Do List</title>
 </head>
+
 <body>
-<!-- Header -->
+    <!-- Header -->
     <header>
         <h1>You Can Do Too with To Do</h1>
         <p>A simple productivity tool to help you manage your day, your week or even your life.</p>
-    
-    <!-- Text input section and button -->
-        <div id="text-input"> 
+
+        <!-- Text input section and button -->
+        <div id="text-input">
             <input class="input-box" type="text">
             <button class="todo-button" type="submit">+</button>
         </div>
     </header>
-<!-- End of header -->
+    <!-- End of header -->
 
-<!-- List section for user submitted to do's -->
+    <!-- List section for user submitted to do's -->
     <div id="todo-container">
         <ul class="todo-list">
         </ul>
     </div>
-<!-- End of List Section -->
+    <!-- End of List Section -->
 
-<!-- Footer. Icons taken from Font Awesome -->
+    <!-- Footer. Icons taken from Font Awesome -->
     <footer>
-        <a class="github-icon" href="https://github.com/Deanbert" target="_blank" rel="noopener" aria-label="Visit my Github page (opens in new tab)">
-            <i class="fa-brands fa-square-github"></i>
-        </a>
-        <a class="linkedin-icon" href="https://www.linkedin.com/in/dean-fay/" target="_blank" rel="noopener" aria-label="Visit my LinkedIn page (opens in new tab)">
-            <i class="fa-brands fa-linkedin"></i>
-        </a>
-        <a class="insta-icon" href="https://www.instagram.com/deanbert/" target="_blank" rel="noopener" aria-label="Visit my instagram page (opens in new tab)">
-            <i class="fa-brands fa-square-instagram"></i>
-        </a>
-        <a class="facebook-icon" href="https://www.facebook.com/dean.ofaidh/" target="_blank" rel="noopener" aria-label="Visit my Facebook page (opens in new tab)">
-            <i class="fa-brands fa-square-facebook"></i>
-        </a>
+        <ul class="social-container">
+            <li>
+                <a class="github-icon" href="https://github.com/Deanbert" target="_blank" rel="noopener"
+                    aria-label="Visit my Github page (opens in new tab)">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/dean-fay/" target="_blank" rel="noopener"
+                    aria-label="Visit my LinkedIn page (opens in new tab)">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/deanbert/" target="_blank" rel="noopener"
+                    aria-label="Visit my instagram page (opens in new tab)">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/dean.ofaidh/" target="_blank" rel="noopener"
+                    aria-label="Visit my Facebook page (opens in new tab)">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+            </li>
+        </ul>
     </footer>
-<!-- End of Footer -->
+    <!-- End of Footer -->
 
-<!-- Script sources for JS and Font Awesome -->
+    <!-- Script sources for JS and Font Awesome -->
     <script src="./assets/javascript/script.js"></script>
     <script src="https://kit.fontawesome.com/6b91c3e226.js" crossorigin="anonymous"></script>
 </body>
