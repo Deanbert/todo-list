@@ -10,24 +10,25 @@ todoButton.addEventListener("click", addToDo);
 function addTodo(event) {
 
     //Used to create a li and add it to the todo-list container
-    const todoDiv = document.createElement('div');
-    todoDiv.classList.add('todo');
+    const todoDiv = document.createElement("div");
+    todoDiv.classList.add("todo");
 
     //Adds new todo item to todo container
-    const newTodo = document.createElement('li');
-    newTodo.classList.add('todo-item');
+    const newTodo = document.createElement("li");
+    newTodo.innerText = todoInput.value;
+    newTodo.classList.add("todo-item");
     todoDiv.appendChild(newTodo);
 
     //Adds tickbox for tasks that are complete
-    const completeButton = document.createElement('button');
+    const completeButton = document.createElement("button");
     completeButton.innerHTML = '<i class="fa-solid fa-check"></i>';
-    completeButton.classList.add('complete-button');
+    completeButton.classList.add("complete-button");
     todoDiv.appendChild(completeButton);
 
     //Adds delete button for removing added tasks
-    const deleteButton = document.createElement('button');
+    const deleteButton = document.createElement("button");
     deleteButton.innerHTML = '<i class="fa-regular fa-trash-can"></i>';
-    deleteButton.classList.add('complete-button');
+    deleteButton.classList.add("delete-button");
     todoDiv.appendChild(deleteButton);
 
     //Append item to list
