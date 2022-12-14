@@ -34,6 +34,13 @@ function addTodo(event) {
     //Append item to list
     todoList.appendChild(todoDiv);
 
+    //Alerts the user if they have not entered a value
+    if(input.value === '') {
+        alert("You must not need a to do list if you have nothing to do, please enter some text")
+        } else {
+            todoDiv.appendChild(newTodo);
+        }
+
     //
     todoInput.value="";
 }
