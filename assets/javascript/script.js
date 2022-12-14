@@ -1,10 +1,10 @@
 //Selectors
-const inputBox = document.querySelector('.input-box');
-const todoButton = document.querySelector('.todo-button');
-const todoList = document.querySelector('.todo-list');
+const todoInput = document.querySelector(".input-box");
+const todoButton = document.querySelector(".todo-button");
+const todoList = document.querySelector(".todo-list");
 
 //Event Listeners
-todoButton.addEventListener("click", addToDo);
+todoButton.addEventListener("click", addTodo);
 
 //Functions
 function addTodo(event) {
@@ -33,4 +33,7 @@ function addTodo(event) {
 
     //Append item to list
     todoList.appendChild(todoDiv);
+
+    //
+    todoInput.value="";
 }
